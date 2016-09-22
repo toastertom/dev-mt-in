@@ -1,6 +1,6 @@
 body {
 font-family: Lora-Regular;
-
+margin: 0;
 
 }
 
@@ -11,7 +11,7 @@ hr {
 .container {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+
   width: 100%;*/
   flex-direction: row;
 }
@@ -20,27 +20,53 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height: 600px;
+  width: 100%;
+
 }
 
- input {
-  display: inline-block;
-  float: left;
+.search {
+
+}
+
+ form {
+   width:200px;
+   height: 30px;
+   display:inline-block;
+   margin-right: 220px;
+}
+
+form input {
+  display: block;
+  width: 400px;
+  height: 40px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.bio {
+  height: 200px;
 }
 
 .con-right {
-
-margin-right: 40px;
-padding: 15px;
-margin-left: 50px;
+ display: flex;
+ margin-right: 50px;
+ padding-top: 50px;
 
 }
 
 .con-left {
- float: left;
- text-align: left;
- width: 50%;
- padding: 15px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  text-align: left;
+  width: 50%;
 
+}
+
+.con-left-con {
+  text-align: center;
+  margin-top: 30px;
 }
 
 .element-back {
@@ -63,7 +89,7 @@ margin-left: 50px;
   transform: rotate(45deg);
   position: absolute;
   overflow: hidden;
-  margin-top: 100px;
+  top: 100px;
   right: -270px;
 
 
