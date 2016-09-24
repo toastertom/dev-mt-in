@@ -36,11 +36,11 @@
 
 	<!-- User Info Form -->
 	<form>
-		<input type="text" name="search" placeholder="Full 	Name"></input>
-		<input type="text" name="search" 	placeholder="Tagline"></input>
-		<input type="text" name="search" placeholder="Profile Image URL"></input>
-		<input type="text" name="search" 	placeholder="Bio" class="bio"></input>
-		<button>Save Changes</button>
+		<input ng-model="name" type="text" name="search" placeholder="Full 	Name"></input>
+		<input ng-model="tagLine" type="text" name="search" 	placeholder="Tagline"></input>
+		<input ng-model="imgUrl" type="text" name="search" placeholder="Profile Image URL"></input>
+		<input ng-model="bio" type="text" name="search" 	placeholder="Bio" class="bio"></input>
+		<button ng-click="test()">Save Changes</button>
 	</form>
 	</div>
  </div>
