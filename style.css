@@ -2,14 +2,16 @@
 
 body {
 font-family: Lora-Regular;
+}
 
-
+.header {
+  margin-bottom: 10px;
 }
 
 img {
   width: 30px;
   height: 30px;
-
+  margin-top: 20px;
 }
 
 hr {
@@ -17,17 +19,12 @@ hr {
 }
 
 .container {
-
 text-align: center;
-
-
 }
 
 .main {
-
   height: 600px;
   margin: 0;
-
 }
 
 .search {
@@ -54,18 +51,15 @@ form input {
 }
 
 .con-right {
-
- margin-right: 50px;
- padding-top: 50px;
-
-
+  float: right;
+  margin-right: 50px;
+  padding-top: 50px;
 }
 
 .con-left {
   float: left;
   text-align: left;
   width: 50%;
-
 }
 
 .con-left-con {
@@ -108,5 +102,4 @@ h5 a {
   font-weight: bold;
   color: #A9A9A9;
   font-style: none;
-
 }
