@@ -6,13 +6,19 @@ font-family: Lora-Regular;
 
 }
 
+img {
+  width: 30px;
+  height: 30px;
+
+}
+
 hr {
   margin: 0;
 }
 
 .container {
 
-
+text-align: center;
 
 
 }
@@ -94,6 +100,7 @@ form input {
 
 footer {
   margin-top: 15px;
+  text-align: center;
 }
 
 h5 a {
@@ -101,4 +108,5 @@ h5 a {
   font-weight: bold;
   color: #A9A9A9;
   font-style: none;
+
 }
