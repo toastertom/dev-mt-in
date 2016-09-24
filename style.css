@@ -1,6 +1,8 @@
+
+
 body {
 font-family: Lora-Regular;
-margin: 0;
+
 
 }
 
@@ -9,19 +11,16 @@ hr {
 }
 
 .container {
-  display: flex;
-  justify-content: space-between;
 
-  width: 100%;*/
-  flex-direction: row;
+
+
+
 }
 
 .main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
   height: 600px;
-  width: 100%;
+  margin: 0;
 
 }
 
@@ -49,15 +48,13 @@ form input {
 }
 
 .con-right {
- display: flex;
+
  margin-right: 50px;
  padding-top: 50px;
 
 }
 
 .con-left {
-  display: flex;
-  flex-direction: column;
   float: left;
   text-align: left;
   width: 50%;
@@ -77,7 +74,8 @@ form input {
 	border-bottom: 300px solid #D8D9DB;
   transform: rotate(10deg);
   position: relative;
-
+  right: 10px;
+  margin-right: 0px;
 }
 
 .element-front {
