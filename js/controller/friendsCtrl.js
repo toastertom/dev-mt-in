@@ -1,6 +1,6 @@
-angular.module('devMtnSocial').controller('friendCtrl', function ($scope , mainService) {
+angular.module('devMtnSocial').controller('friendsCtrl', function ($scope , mainService) {
 
-
+$scope.test = "is working";
 
 
 });

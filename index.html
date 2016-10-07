@@ -11,7 +11,7 @@
 	<title>Welcome!</title>
 
 </head>
-<body ng-controller="mainCtrl">
+<body>
 	<div class="header">
 		<div class="container">
 
@@ -28,31 +28,9 @@
 
 <hr/>
 
-<div class="main">
-	<div class="container">
-	<!-- Left Content -->
-	<div class="col-lg-6" class="con-left">
-		<div class="con-left-con">
-		<h3>Welcome to <span style="color:#85FDF3" >DevMountain</span> Social! <br> Add some info so friends can find you.</h3>
-
-	<!-- User Info Form -->
-	<form ng-submit="newUser()">
-		<input ng-model="name" type="text" name="search" placeholder="Full 	Name"></input>
-		<input ng-model="tagLine" type="text" name="search" 	placeholder="Tagline"></input>
-		<input ng-model="imgUrl" type="text" name="search" placeholder="Profile Image URL"></input>
-		<input ng-model="bio" type="text" name="search" 	placeholder="Bio" class="bio"></input>
-		<button ng-click="addUserInfo()">Save Changes</button>
-	</form>
-	</div>
- </div>
-
-	<!-- Content Right -->
-	<div class="col-lg-6" class="con-right">
-		<div  class="element-back"><div class="element-front"></div>
-		</div>
-	</div>
-</div>
-</div>
+<ui-view>
+<!--Inter-Changeable Content -->
+</ui-view>
 
 <hr/>
 
@@ -65,7 +43,7 @@
 
 
 	<!-- Angular.js -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 
