@@ -22,6 +22,11 @@ angular.module('devMtnSocial',['ui.router'])
       templateUrl: '../view/friendsTmpl.html',
       controller: 'friendsCtrl'
     })
+    .state('find-friends', {
+      url: '/find-friends',
+      templateUrl: '../view/findFriendsTmpl.html',
+      controller: 'findFriendsCtrl'
+    })
     .state('update-profile', {
       url: '/update-profile',
       templateUrl: '../view/updateProfileTmpl.html',
